@@ -1,5 +1,6 @@
-#!/bin/bash#Do some stuff after backing up the datas, unmount a lan drive or something
+#!/bin/bash -e
 echo "Post-backup script..."
-#umount /media/something
+
+sudo chown -R pistomp:pistomp /home/pistomp/backup
 
 echo "...end of post-backup script."
