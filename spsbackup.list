@@ -1,7 +1,3 @@
-/var/modep/banks.json 
-/var/modep/pedalboards 
-/home/patch/pi-stomp/pistomp/*.yml 
-/home/patch/spsbackup
-/etc/*.cred
-/etc/fstab
-/home/patch/.bashrc
+/home/pistomp/data
+/home/pistomp/spsbackup
+/home/pistomp/.bashrc
