@@ -15,6 +15,14 @@
 # You should have received a copy of the GNU General Public License
 # along with pi-stomp.  If not, see <https://www.gnu.org/licenses/>.
 
+#install script file in /usr/bin
+echo "Installing script file in /usr/bin"
+sudo cp spsbackup /usr/bin
+if [ -f /usr/bin/spsbackup ]; then
+	echo "...Done!"
+else
+	echo "Something went wrong!"
+fi
 
 #install default configuration file in /etc
 echo "Installing configuration file in /etc"
